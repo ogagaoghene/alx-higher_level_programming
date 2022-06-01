@@ -6,5 +6,3 @@ def islower(c):
         return True
     else:
         return False
-© 2022 GitHub, Inc.
-Term
