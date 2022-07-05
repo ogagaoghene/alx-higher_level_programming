@@ -11,4 +11,4 @@ def add_attribute(obj, attribute, value):
     if '__slots__' in dir(obj):
         raise TypeError("can't add new attribute")
     else:
-        setattr(obj, attribute, 
+        setattr(obj, attribute, value)
