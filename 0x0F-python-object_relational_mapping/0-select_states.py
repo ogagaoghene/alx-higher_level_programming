@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-python script that lists all states from the database hbtn_0e_0_usa
+python script that lists all states from the database - hbtn_0e_0_usa
 """
 
 import MySQLdb
