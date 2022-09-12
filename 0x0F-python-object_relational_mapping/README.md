@@ -1,4 +1,7 @@
 # 0x0F. Python - Object-relational mapping
+
+## Description
+Objection relational mapping is a way of abstracting storage to objects preventing the use of SQL queries directly to manipulate data
 At the end of this project you are expected to be able to explain to anyone, without the help of Google:
 * How to connect to a MySQL database from a Python script
 * How to SELECT rows in a MySQL table from a Python script
