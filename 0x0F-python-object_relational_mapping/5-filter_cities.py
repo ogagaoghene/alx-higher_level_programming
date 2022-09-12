@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-python script that lists all cities from the database hbtn_0e_4_usa
+python script that lists all cities from the database - hbtn_0e_4_usa
 with specified state name
 """
 
