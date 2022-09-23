@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """Check status"""
 import requests
-from sys import argv
 
 def status():
     """status"""
