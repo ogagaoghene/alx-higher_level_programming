@@ -1,8 +1,14 @@
 #!/usr/bin/python3
-""" Fetches https://alx-intranet.hbtn.io/status using requests"""
+"""Check status"""
+import requests
+
+def status():
+    """status"""
+    result = requests.get("https://alx-intranet.hbtn.io/status")
+
+    print("Body response:")
+    print("\t- type: {}".format(type(result.text)))
+    print("\t- content: {}".format(result.text))
+
 if __name__ == "__main__":
-  import requests
-  r = requests.get('https://alx-intranet.hbtn.io/status', auth=('user', 'pass'))
-  print("Body response:")
-  print('\t- type: {}'.format(type(r.text)))
-  print('\t- content: {}'.format(r.text))
+    status()
