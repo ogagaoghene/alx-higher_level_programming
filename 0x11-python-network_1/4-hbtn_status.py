@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Fetches https://intranet.hbtn.io/status using requests"""
+""" Fetches https://alx-intranet.hbtn.io/status using requests"""
 if __name__ == "__main__":
   import requests
   from sys import argv
